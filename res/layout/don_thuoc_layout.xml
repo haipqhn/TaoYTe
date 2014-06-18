@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/firstLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="First line"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#444444" />
+	        <TextView
+	            android:id="@+id/secondLine"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/firstLine"
+	            android:text="Second line which is a long line of text and needs to scroll"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="#444444" />
+	        <TextView
+	            android:id="@+id/thirdLine"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/secondLine"
+	            android:text="Third line which is a long line of text and needs to scroll"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="#444444" />
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+</RelativeLayout>

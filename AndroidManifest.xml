@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.volcano.taoyte"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/TaoYTeActionBarTheme" >
+        <activity
+            android:name="com.volcano.taoyte.MainMedicineAlert"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/main_activity_name"
+            android:theme="@style/TaoYTeActionBarTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.volcano.taoyte.ThemDonThuocActivity"
+            android:label="@string/title_activity_them_don_thuoc"
+            android:theme="@style/TaoYTeActionBarTheme" >
+        </activity>
+        <activity
+            android:name="com.volcano.taoyte.ThemThongTinThuocActivity"
+            android:label="@string/title_activity_them_thong_tin_thuoc"
+            android:theme="@style/TaoYTeActionBarTheme" >
+        </activity>
+        <activity
+            android:name="com.volcano.taoyte.DonThuocActivity"
+            android:label="@string/title_activity_don_thuoc"
+            android:theme="@style/TaoYTeActionBarTheme" >
+        </activity>
+    </application>
+
+</manifest>

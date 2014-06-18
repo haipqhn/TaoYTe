@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DonThuocActivity"
+    android:background="#dddddd" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="125dp">
+        <ScrollView 
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+		    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >        
+		    <TextView
+		        android:id="@+id/mainTextdt"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:gravity="center"
+		        android:textColor="#000000"
+		        android:text="Phần chính" />
+	    	</LinearLayout>
+		</ScrollView>
+    </LinearLayout>    
+	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:gravity="center">        
+	    <ImageButton
+	        android:id="@+id/plusButton"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:gravity="center"
+	        android:background="@drawable/plustest" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom" >
+     
+		    <ImageView
+	        android:id="@+id/imageViewdt"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:src="@drawable/adsample"
+	        android:layout_gravity="bottom" />
+    </LinearLayout> 
+
+    
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Táo y tế</string>
+    <string name="main_activity_name">Táo y tế</string>
+    <string name="title_activity_them_don_thuoc">Thêm đơn thuốc</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_them_thong_tin_thuoc">Thêm thông tin thuốc</string>
+    <string name="title_activity_don_thuoc">Đơn thuốc</string>
+
+</resources>
